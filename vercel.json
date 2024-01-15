@@ -40,6 +40,7 @@
         "MAIL_ENCRYPTION":"tls",
         "MAIL_FROM_ADDRESS":"silogmamiliter@gmail.com",
         "MAIL_FROM_NAME":"Silogma",
-        "FILESYSTEM_DISK" : "public"
+        "FILESYSTEM_DISK" : "public",
+        "ASSET_URL": "https://silogma.com"
     }
 }
