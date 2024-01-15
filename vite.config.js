@@ -13,6 +13,7 @@ export default defineConfig({
                 'resources/js/uploadImage.js',
                 'resources/js/datepicker.js',
                 'resources/js/closeFlash.js',
+                'resources/js/dropdown.js',
             ],
             refresh: true,
         }),

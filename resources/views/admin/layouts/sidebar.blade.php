@@ -1,7 +1,7 @@
 <aside class="fixed flex flex-col h-full rounded-xl text-gray-700 p-5 items-center w-64">
     <div class="flex pt-5 ">
         <h1 class="uppercase text-2xl font-extrabold">
-            <img src="{{ asset('images/logo_black.svg') }}" alt="logo" class="w-28">
+            <img src="{{ Vite::asset('resources/images/logo_black.svg') }}" alt="logo" class="w-28">
         </h1>
     </div>
     <div class="flex flex-col w-full pt-5">
