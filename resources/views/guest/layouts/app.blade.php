@@ -14,9 +14,7 @@
 
     {{-- <link rel="stylesheet" href=""> --}}
     <!-- Scripts -->
-    {{-- @vite('resources/js/app.js') --}}
-    <style>{!! Vite::content('resources/css/app.css')!!}</style>
-    <script>{!! Vite::content('resources/js/app.js') !!}</script>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
     @trixassets
@@ -41,9 +39,9 @@
     </div>
     {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script> --}}
     {{-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> --}}
-    <script src="{{ asset('js/dropdown.js') }}"></script>
-    {{-- @vite('resources/js/uploadImage.js')
-    @vite('resources/js/riwayatForm.js') --}}
+    {{-- <script src="{{ asset('js/dropdown.js') }}"></script> --}}
+    {{-- @vite('resources/js/uploadImage.js') --}}
+    @vite('resources/js/dropdown.js') 
     {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script> --}}
 </body>
 
