@@ -30,6 +30,6 @@
         </div>
     </div>
 </body>
-@vite('resources/js/togglePassword.js')
+{{-- @vite('resources/js/togglePassword.js') --}}
 
 </html>
