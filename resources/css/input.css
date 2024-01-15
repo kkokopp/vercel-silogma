@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.sidebar {
+    @apply w-64;
+}
+
+.sidebar-active {
+    @apply bg-gradient-to-br from-slate-900 to-slate-600;
+    @apply text-white;
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* Jumlah baris yang ingin Anda tampilkan */
+}
+
+    /* Tambahkan gaya untuk menyembunyikan formulir yang tidak terbuka */
+    #riwayatContainer > div:not(.open) {
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    }
+
+    #riwayatContainer > div.open {
+        max-height: 1000px; /* Sesuaikan dengan nilai yang mencukupi */
+        opacity: 1;
+        transition: max-height 0.3s ease-in, opacity 0.3s ease-in;
+    }
