@@ -9,7 +9,7 @@ $jenis_gambar = ['sniper.jpg', 'angkut.jpg', 'kapal_perang.jpg', 'pesawat_tempur
                 <div class="absolute flex flex-col justify-center items-center w-full h-full z-30">
                     <div
                         class="bg-gray-500/60 max-w-6xl w-full p-10 px-14 rounded-md backdrop-blur-sm backdrop-brightness-150">
-                        <img src="{{ Vite::asset('resources/images/logo2.svg') }}" alt="logo_hero" class="w-full opacity-60">
+                        <img src="{{ asset('images/logo2.svg') }}" alt="logo_hero" class="w-full opacity-60">
                         <h1 class="bg-gradient-to-br text-white text-4xl md:text-8xl uppercase font-extrabold">
                         </h1>
                     </div>
@@ -17,7 +17,7 @@ $jenis_gambar = ['sniper.jpg', 'angkut.jpg', 'kapal_perang.jpg', 'pesawat_tempur
                 <div class="absolute flex bg-gradient-to-b from-slate-900 justify-center items-center to-slate-500 z-20 w-full opacity-60"
                     style="height: 60vh">
                 </div>
-                <img src="{{ Vite::asset('resources/images/beranda.jpg') }}" alt="beranda" class="object-cover object-top w-full"
+                <img src="{{ asset('images/beranda.jpg') }}" alt="beranda" class="object-cover object-top w-full"
                     style="height: 60vh">
             </div>
             <div class="w-full py-5">
@@ -63,7 +63,7 @@ $jenis_gambar = ['sniper.jpg', 'angkut.jpg', 'kapal_perang.jpg', 'pesawat_tempur
                                             {{-- {{ dd($alutsista->jenis_senjata->id) }} --}}
                                             @if ($alutsista->foto == null)
                                                 @if ($alutsista->jenis_senjata->id >= 1 && $alutsista->jenis_senjata->id <= 6)
-                                                    <img src="{{ Vite::asset('resources/images/' . $jenis_gambar[$alutsista->jenis_senjata->id - 1]) }}"
+                                                    <img src="{{ asset('images/' . $jenis_gambar[$alutsista->jenis_senjata->id - 1]) }}"
                                                         alt="beranda"
                                                         class="object-cover object-top w-96 rounded-t-md h-52 group-hover:scale-105 transition-transform duration-300">
                                                 @endif
@@ -110,7 +110,7 @@ $jenis_gambar = ['sniper.jpg', 'angkut.jpg', 'kapal_perang.jpg', 'pesawat_tempur
                                         <div class="relative group overflow-hidden h-52 rounded-md shadow-md">
                                             {{-- {{ $loop->index+1 }} --}}
                                             @if ($jenis->id == $loop->index + 1)
-                                                <img src="{{ Vite::asset('resources/images/' . $jenis_gambar[$loop->index]) }}"
+                                                <img src="{{ asset('images/' . $jenis_gambar[$loop->index]) }}"
                                                     alt="beranda"
                                                     class=" object-cover object-top w-full rounded-md transition-transform duration-300 transform group-hover:scale-105">
                                             @endif
@@ -169,7 +169,7 @@ $jenis_gambar = ['sniper.jpg', 'angkut.jpg', 'kapal_perang.jpg', 'pesawat_tempur
                         </div>
                         <div class="w-1/2">
                             <div class="w-full flex justify-center items-center">
-                                <img src="{{ Vite::asset('resources/images/customer_service.png') }}" alt=""
+                                <img src="{{ asset('images/customer_service.png') }}" alt=""
                                     class=" object-cover w-full h-full">
                             </div>
                         </div>

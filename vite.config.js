@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 
 export default defineConfig({
+    base:'/',
     plugins: [
         laravel({
             input: [
@@ -12,7 +13,6 @@ export default defineConfig({
                 'resources/js/uploadImage.js',
                 'resources/js/datepicker.js',
                 'resources/js/closeFlash.js',
-                'resources/images/*',
             ],
             refresh: true,
         }),
