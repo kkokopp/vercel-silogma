@@ -14,8 +14,9 @@
 
     {{-- <link rel="stylesheet" href=""> --}}
     <!-- Scripts -->
-    @vite('resources/js/app.js')
+    {{-- @vite('resources/js/app.js') --}}
     <style>{{ Vite::content('resources/css/app.css')}}</style>
+    <script>{{ Vite::content('resources/js/app.js') }}</script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
     @trixassets
