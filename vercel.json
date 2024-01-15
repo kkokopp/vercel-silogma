@@ -14,7 +14,7 @@
     "env": {
         "APP_NAME":"SILOGMA",
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_DEBUG": "true",
         "APP_URL": "https://silogma.com",
         "APP_KEY": "base64:UdsTE7t/Hp+4IkTW3LTKStXsIVnirIGAwyAgdzaBffk=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
