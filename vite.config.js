@@ -7,6 +7,11 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/js/app.js',
+                'resources/js/togglePassword.js',
+                'resources/js/riwayatForm.js',
+                'resources/js/uploadImage.js',
+                'resources/js/datepicker.js',
+                'resources/js/closeFlash.js',
             ],
             refresh: true,
         }),
