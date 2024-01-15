@@ -14,7 +14,8 @@
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <script src="{{ mix('resources/js/togglePassword.js') }}"></script>
+    @vite('resources/js/togglePassword.js')
+    {{-- <script src="{{ mix('resources/js/togglePassword.js') }}"></script> --}}
 </head>
 
 <body class="font-sans text-gray-900 antialiased">
