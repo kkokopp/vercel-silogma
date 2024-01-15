@@ -17,7 +17,7 @@ $jenis_gambar = ['sniper.jpg', 'angkut.jpg', 'kapal_perang.jpg', 'pesawat_tempur
                 <div class="absolute flex bg-gradient-to-b from-slate-900 justify-center items-center to-slate-500 z-20 w-full opacity-60"
                     style="height: 60vh">
                 </div>
-                <img src="{{ asset('images/beranda.jpg') }}" alt="beranda" class="object-cover object-top w-full"
+                <img src="{{ Vite::asset('resources/images/beranda.jpg') }}" alt="beranda" class="object-cover object-top w-full"
                     style="height: 60vh">
             </div>
             <div class="w-full py-5">
