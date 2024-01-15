@@ -11,7 +11,7 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    server: {
-        https: true,
-    },
+    define: {
+        __APP_ENV__: process.env.VITE_VERCEL_ENV,
+    },  
 });
