@@ -15,6 +15,7 @@
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @vite('resources/js/togglePassword.js')
+    {{-- @vite('resources/js/riwayatForm.js') --}}
     {{-- <script src="{{ mix('resources/js/togglePassword.js') }}"></script> --}}
 </head>
 
