@@ -33,7 +33,7 @@
         "DB_PASSWORD":"3db9f9c70b8eab4a35a776b6c62562a54d4ae741",
         "MAIL_MAILER": "smtp",
         "MAIL_HOST":"smtp.gmail.com",
-        "MAIL_PORT":465,
+        "MAIL_PORT":"465",
         "MAIL_USERNAME":"silogmamiliter@gmail.com",
         "MAIL_PASSWORD":"ltjs ckzc savc xbdp",
         "MAIL_ENCRYPTION":"tls",
