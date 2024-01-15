@@ -9,7 +9,7 @@ $jenis_gambar = ['sniper.jpg', 'angkut.jpg', 'kapal_perang.jpg', 'pesawat_tempur
                 <div class="absolute flex flex-col justify-center items-center w-full h-full z-30">
                     <div
                         class="bg-gray-500/60 max-w-6xl w-full p-10 px-14 rounded-md backdrop-blur-sm backdrop-brightness-150">
-                        <img src="{{ asset('images/logo2.svg') }}" alt="logo_hero" class="w-full opacity-60">
+                        <img src="{{ Vite::asset('/resources/images/logo2.svg') }}" alt="logo_hero" class="w-full opacity-60">
                         <h1 class="bg-gradient-to-br text-white text-4xl md:text-8xl uppercase font-extrabold">
                         </h1>
                     </div>
