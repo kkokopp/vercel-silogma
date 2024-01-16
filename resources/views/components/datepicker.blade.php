@@ -16,6 +16,6 @@
         <input id="{{ $id }}" data-id="{{ $id }}" name="riwayat[0][{{ $id }}]" value="{{ isset($value) ? $value : '' }}" datepicker type="text" class="bg-white border datepicker border-gray-300 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 focus:border-gray-500 dark:focus:border-gray-600 focus:ring-gray-500 dark:focus:ring-dark-600 rounded-md shadow-sm block w-full ps-10 p-2.5 dark:placeholder-gray-400 dark:focus:ring-blue-500" placeholder="Select date">
     </div>
     {{-- @push('scripts') --}}
-    <script type="module" src="{{ mix('resources/js/datepicker.js') }}" data-id="{{ $id }}" defer></script>
+    <script type="module" src="{{ Vite::asset('resources/js/datepicker.js') }}" data-id="{{ $id }}" defer></script>
     {{-- @endpush --}}
 </div>

@@ -11,6 +11,11 @@
     "public": true,
     "buildCommand": "vite build",
     "outputDirectory": "public",
+    "build":{
+        "scripts" : {
+            "postinstall" : "php artisan storage:link"
+        }
+    },
     "env": {
         "APP_NAME":"SILOGMA",
         "APP_ENV": "production",
