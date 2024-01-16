@@ -76,6 +76,10 @@ Route::middleware('auth')->group(function () {
 // Route::get('/alutsista/{kode_senjata}',[LandController::class, 'show'])->name('alutsista.show');
 
 Route::post('send-email', [LandController::class, 'sendEmail'])->name('send.email');
+Route::get('/generate', function(){
+    \Illuminate\Support\Facades\Artisan::call('storage:link');
+    echo 'ok';
+});
 // Route::get('/alutsista/')
 
 // Route::get('/admin/dashboard', function () {
